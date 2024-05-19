@@ -9,21 +9,21 @@ export function CarouselShop() {
 
         <div >
           <img
-            src="/src/assets/Carouselimg/juegomesa.webp"
+            src="https://mobel6000.com/themes/mobel6000/assets/img/modules/appagebuilder/images/banner-dormitorio.webp"
+            alt=""
+            className="max-w-full mx-auto rounded-3xl"
+          />
+        </div>
+        <div className=" ">
+          <img
+            src="https://mobel6000.com/themes/mobel6000/assets/img/modules/appagebuilder/images/banner-comedor.webp"
             alt=""
             className="max-w-full max-h-96 mx-auto rounded-3xl"
           />
         </div>
         <div className=" ">
           <img
-            src="/src/assets/Carouselimg/cama.jpeg"
-            alt=""
-            className="max-w-full max-h-96 mx-auto rounded-3xl"
-          />
-        </div>
-        <div className=" ">
-          <img
-            src="/src/assets/Carouselimg/cama2.png"
+            src="https://www.homecenter.com.co/static/landing/guiasdecompra/Guias_de_compra_2/img/muebles-para-ahorrar-espacio/Cabezote.png"
             alt=""
             className="max-w-full max-h-96 mx-auto rounded-3xl"
           />

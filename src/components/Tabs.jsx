@@ -1,9 +1,9 @@
-import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
+import { Tabs, TabList,  Tab } from "@chakra-ui/react";
 
 export function TabsComponent() {
   return (
     <>
-      <div className="border-2 border-gray-800 max-w-full mx-10 bg-orange-200 rounded-3xl mt-4">
+      <div className=" max-w-full mx-10 bg-orange-200 rounded-3xl mt-4">
         <Tabs className=" text-gray-900  bg-gray-200  dark:bg-gray-900  dark:text-white">
           <TabList className="flex">
             <Tab className="flex-1 text-lg  py-2 px-4 hover:bg-gray-300 focus:outline-none focus:bg-gray-300  text-gray-900  bg-gray-200  dark:bg-gray-900  dark:text-white hover:dark:bg-gray-800 rounded-l-3xl ">
@@ -19,8 +19,8 @@ export function TabsComponent() {
               Muebles para el bano
             </Tab>
           </TabList>
-          <TabPanels>
-            <TabPanel>
+          {/* <TabPanels> 
+             <TabPanel>
               <p>Contenido para Muebles para la habitacion</p>
             </TabPanel>
             <TabPanel>
@@ -32,7 +32,7 @@ export function TabsComponent() {
             <TabPanel>
               <p>Contenido para Muebles para el bano</p>
             </TabPanel>
-          </TabPanels>
+          </TabPanels> */}
         </Tabs>
       </div>
     </>
